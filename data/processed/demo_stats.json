@@ -1,0 +1,47 @@
+{
+  "original_count": 8,
+  "steps": {
+    "misinformation": {
+      "removed": 0,
+      "remaining": 8,
+      "high_risk_percentage": 0.0
+    },
+    "quality": {
+      "removed": 0,
+      "remaining": 8,
+      "avg_quality_score": 0.8029359702797203
+    },
+    "redundancy": {
+      "removed": 1,
+      "remaining": 7,
+      "redundancy_percentage": 12.5
+    }
+  },
+  "removed_indices": {
+    "misinformation": [],
+    "low_quality": [],
+    "duplicates": [
+      3
+    ]
+  },
+  "sustainability": {
+    "immediate_savings": {
+      "data_mb": 0.0002574920654296875,
+      "reduction_percentage": 13.5,
+      "energy_kwh": 1.2874603271484375e-08,
+      "carbon_kg": 6.115436553955078e-09,
+      "water_liters": 2.3174285888671874e-08
+    },
+    "projected_annual_savings": {
+      "energy_kwh": 4.699230194091797e-06,
+      "carbon_kg": 2.2321343421936034e-06,
+      "water_liters": 8.458614349365235e-06,
+      "carbon_trees_equivalent": 1.0629211153302873e-07,
+      "car_miles_equivalent": 0.005525085005429711
+    }
+  },
+  "final_count": 7,
+  "total_removed": 1,
+  "retention_rate": 87.5,
+  "processing_time": 0.024422168731689453
+}
